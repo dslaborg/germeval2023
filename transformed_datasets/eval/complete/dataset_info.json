@@ -1,0 +1,49 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "Tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "SentenceId": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "FileName": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "sentence_extended": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "tokens_extended": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "sentence_extended_ids": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

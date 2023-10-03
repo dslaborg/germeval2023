@@ -1,0 +1,22 @@
+{
+  "_data_files": [
+    {
+      "filename": "data-00000-of-00001.arrow"
+    }
+  ],
+  "_fingerprint": "f32ee64bf3c41755",
+  "_format_columns": [
+    "FileName",
+    "Sentence",
+    "SentenceId",
+    "Tokens",
+    "id",
+    "sentence_extended",
+    "sentence_extended_ids",
+    "tokens_extended"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_output_all_columns": false,
+  "_split": null
+}

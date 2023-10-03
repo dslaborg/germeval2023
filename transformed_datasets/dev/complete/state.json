@@ -1,0 +1,38 @@
+{
+  "_data_files": [
+    {
+      "filename": "data-00000-of-00001.arrow"
+    }
+  ],
+  "_fingerprint": "a524e5d27e6c527f",
+  "_format_columns": [
+    "FileName",
+    "Sentence",
+    "SentenceId",
+    "Tokens",
+    "addr",
+    "addr_mapped",
+    "cue",
+    "cue_mapped",
+    "evidence",
+    "evidence_mapped",
+    "id",
+    "medium",
+    "medium_mapped",
+    "message",
+    "message_mapped",
+    "ptc",
+    "ptc_mapped",
+    "sentence_extended",
+    "sentence_extended_ids",
+    "source",
+    "source_mapped",
+    "tokens_extended",
+    "topic",
+    "topic_mapped"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_output_all_columns": false,
+  "_split": null
+}
