@@ -4,3 +4,5 @@ peft==0.4.0
 accelerate==0.21.0
 evaluate==0.4.0
 sentencepiece==0.1.99
+jupyter==1.0.0
+scipy==1.11.3

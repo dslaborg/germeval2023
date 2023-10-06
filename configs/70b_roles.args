@@ -1,0 +1,18 @@
+--model_name_or_path meta-llama/Llama-2-70b-hf
+--output_dir ./output/spkatt-70b-roles
+--data_seed 42
+--save_steps 500
+--evaluation_strategy no
+--dataloader_num_workers 4
+--lora_modules all
+--bf16
+--dataset transformed_datasets/prompts_training/parsed_data_roles.jsonl
+--dataset_format input-output
+--source_max_len 640
+--target_max_len 256
+--per_device_train_batch_size 8
+--gradient_accumulation_steps 2
+--max_steps 2500
+--learning_rate 0.0001
+--lora_dropout 0.05
+--seed 0

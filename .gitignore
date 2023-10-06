@@ -2,3 +2,4 @@
 **/.chroma/**
 
 .idea
+transformed_datasets/prompts_training
