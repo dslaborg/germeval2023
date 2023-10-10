@@ -1,0 +1,7 @@
+**/cache-*.arrow
+**/.chroma/**
+__pycache__
+output
+
+.idea
+transformed_datasets/prompts_training

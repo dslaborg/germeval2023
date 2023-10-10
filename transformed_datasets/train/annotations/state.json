@@ -1,0 +1,23 @@
+{
+  "_data_files": [
+    {
+      "filename": "data-00000-of-00001.arrow"
+    }
+  ],
+  "_fingerprint": "39e49e5d76f7d62d",
+  "_format_columns": [
+    "PTC",
+    "Evidence",
+    "Medium",
+    "Topic",
+    "Cue",
+    "Addr",
+    "Message",
+    "Source",
+    "FileName"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_output_all_columns": false,
+  "_split": null
+}
