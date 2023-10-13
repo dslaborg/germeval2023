@@ -806,24 +806,25 @@ def train(custom_args):
             fout.write(json.dumps(all_metrics))
 
 if __name__ == "__main__":
-    custom_args = {"model_name_or_path": "meta-llama/Llama-2-7b-hf",
-                   "output_dir": "./output/spkatt-7b-cues",
-                   "data_seed": 42,
-                   "save_steps": 200,
-                   "evaluation_strategy": "no",
-                   "dataloader_num_workers": 4,
-                   "lora_modules": "all",
-                   "bf16": True,
-                   "dataset": "transformed_datasets/prompts_training/parsed_data_cues.jsonl",
-                   "dataset_format": "input-output",
-                   "source_max_len": 256,
-                   "target_max_len": 64,
-                   "per_device_train_batch_size": 16,
-                   "gradient_accumulation_steps": 1,
-                   "max_steps": 4000,
-                   "learning_rate": 0.0002,
-                   "lora_dropout": 0.1,
-                   "seed": 0,
-                   }
+    custom_args = {
+        "model_name_or_path": "meta-llama/Llama-2-7b-hf",
+        "output_dir": "./output/spkatt-7b-cues",
+        "data_seed": 42,
+        "save_steps": 200,
+        "evaluation_strategy": "no",
+        "dataloader_num_workers": 4,
+        "lora_modules": "all",
+        "bf16": True,
+        "dataset": "transformed_datasets/prompts_training/parsed_data_cues.jsonl",
+        "dataset_format": "input-output",
+        "source_max_len": 256,
+        "target_max_len": 64,
+        "per_device_train_batch_size": 16,
+        "gradient_accumulation_steps": 1,
+        "max_steps": 4000,
+        "learning_rate": 0.0002,
+        "lora_dropout": 0.1,
+        "seed": 0,
+    }
 
     train(custom_args)
