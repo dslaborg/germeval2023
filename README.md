@@ -2,6 +2,7 @@
 
 In this repository, we will shortly share the code of our (Team CPAa) participation in Task 1 (Subtask 1 + 2) of the
 GermEval 2023 Shared Task.
+The affiliated paper can be found here: https://arxiv.org/pdf/2309.09902.pdf
 
 ## Setup
 
